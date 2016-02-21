@@ -21,7 +21,9 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    DCAnimationCards *cards = [[DCAnimationCards alloc]initWithCards:@[[UIColor redColor], [UIColor blueColor], [UIColor yellowColor], [UIColor greenColor], [UIColor grayColor]]];
+    
+    NSArray *cardArr = @[[UIColor redColor], [UIColor blueColor], [UIColor yellowColor], [UIColor greenColor], [UIColor grayColor]];
+    DCAnimationCards *cards = [[DCAnimationCards alloc]initWithCards:cardArr];
 //    [cards show];
     [self.view addSubview:cards];
 }
