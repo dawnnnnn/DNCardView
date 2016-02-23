@@ -21,10 +21,13 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    
-    NSArray *cardArr = @[[UIColor redColor], [UIColor blueColor], [UIColor yellowColor], [UIColor greenColor], [UIColor grayColor]];
-    DCAnimationCards *cards = [[DCAnimationCards alloc]initWithCards:cardArr];
-//    [cards show];
+    NSMutableArray *cardArr = [[NSMutableArray alloc]init];
+    for (int i = 0; i < 5; i++) {
+        UIImage *img = [UIImage imageNamed:[NSString stringWithFormat:@"eg_%d.png",i+1]];
+        [cardArr addObject:img];
+    }
+//    NSArray *cardArr = @[[UIColor redColor], [UIColor blueColor], [UIColor yellowColor], [UIColor greenColor], [UIColor grayColor]];
+    DCAnimationCards *cards = [[DCAnimationCards alloc]initWithCards:[cardArr copy]];
     [self.view addSubview:cards];
 }
 

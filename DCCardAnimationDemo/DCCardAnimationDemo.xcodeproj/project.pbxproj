@@ -14,6 +14,11 @@
 		F4FE85BB1C78BCE900088C10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4FE85BA1C78BCE900088C10 /* Assets.xcassets */; };
 		F4FE85BE1C78BCE900088C10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4FE85BC1C78BCE900088C10 /* LaunchScreen.storyboard */; };
 		F4FE85C81C78BD0E00088C10 /* DCAnimationCards.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FE85C71C78BD0E00088C10 /* DCAnimationCards.m */; };
+		F4FE85DC1C7C0AF500088C10 /* eg_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F4FE85D71C7C0AF500088C10 /* eg_1.png */; };
+		F4FE85DD1C7C0AF500088C10 /* eg_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F4FE85D81C7C0AF500088C10 /* eg_2.png */; };
+		F4FE85DE1C7C0AF500088C10 /* eg_3.png in Resources */ = {isa = PBXBuildFile; fileRef = F4FE85D91C7C0AF500088C10 /* eg_3.png */; };
+		F4FE85DF1C7C0AF500088C10 /* eg_4.png in Resources */ = {isa = PBXBuildFile; fileRef = F4FE85DA1C7C0AF500088C10 /* eg_4.png */; };
+		F4FE85E01C7C0AF500088C10 /* eg_5.png in Resources */ = {isa = PBXBuildFile; fileRef = F4FE85DB1C7C0AF500088C10 /* eg_5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,11 @@
 		F4FE85BF1C78BCE900088C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4FE85C61C78BD0E00088C10 /* DCAnimationCards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCAnimationCards.h; sourceTree = "<group>"; };
 		F4FE85C71C78BD0E00088C10 /* DCAnimationCards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCAnimationCards.m; sourceTree = "<group>"; };
+		F4FE85D71C7C0AF500088C10 /* eg_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eg_1.png; sourceTree = "<group>"; };
+		F4FE85D81C7C0AF500088C10 /* eg_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eg_2.png; sourceTree = "<group>"; };
+		F4FE85D91C7C0AF500088C10 /* eg_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eg_3.png; sourceTree = "<group>"; };
+		F4FE85DA1C7C0AF500088C10 /* eg_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eg_4.png; sourceTree = "<group>"; };
+		F4FE85DB1C7C0AF500088C10 /* eg_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eg_5.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,7 @@
 		F4FE85AD1C78BCE900088C10 /* DCCardAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F4FE85D61C7C0AF500088C10 /* resource */,
 				F4FE85C51C78BD0E00088C10 /* DCAnimationCards */,
 				F4FE85B11C78BCE900088C10 /* AppDelegate.h */,
 				F4FE85B21C78BCE900088C10 /* AppDelegate.m */,
@@ -90,6 +101,18 @@
 				F4FE85C71C78BD0E00088C10 /* DCAnimationCards.m */,
 			);
 			path = DCAnimationCards;
+			sourceTree = "<group>";
+		};
+		F4FE85D61C7C0AF500088C10 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				F4FE85D71C7C0AF500088C10 /* eg_1.png */,
+				F4FE85D81C7C0AF500088C10 /* eg_2.png */,
+				F4FE85D91C7C0AF500088C10 /* eg_3.png */,
+				F4FE85DA1C7C0AF500088C10 /* eg_4.png */,
+				F4FE85DB1C7C0AF500088C10 /* eg_5.png */,
+			);
+			path = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +173,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4FE85BE1C78BCE900088C10 /* LaunchScreen.storyboard in Resources */,
+				F4FE85DD1C7C0AF500088C10 /* eg_2.png in Resources */,
 				F4FE85BB1C78BCE900088C10 /* Assets.xcassets in Resources */,
+				F4FE85E01C7C0AF500088C10 /* eg_5.png in Resources */,
 				F4FE85B91C78BCE900088C10 /* Main.storyboard in Resources */,
+				F4FE85DC1C7C0AF500088C10 /* eg_1.png in Resources */,
+				F4FE85DF1C7C0AF500088C10 /* eg_4.png in Resources */,
+				F4FE85DE1C7C0AF500088C10 /* eg_3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +304,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DCCardAnimationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.laxiong.DCCardAnimationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,6 +316,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DCCardAnimationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.laxiong.DCCardAnimationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +342,7 @@
 				F4FE85C41C78BCE900088C10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

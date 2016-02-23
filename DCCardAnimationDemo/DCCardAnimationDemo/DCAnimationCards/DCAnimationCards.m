@@ -70,8 +70,12 @@
         j = MIN(i, 2);
         cardView.transform = CGAffineTransformMakeScale(1-0.05*j, 1-0.05*j);
         cardView.transform = CGAffineTransformTranslate(cardView.transform, 0, j*15*2);
-        cardView.backgroundColor = _cardArr[i];
-//        cardView.image = _cardArr[i];
+        if ([_cardArr[i] isKindOfClass:[UIImage class]]) {
+            cardView.image = _cardArr[i];
+        }
+        else if ([_cardArr[i] isKindOfClass:[UIColor class]]) {
+            cardView.backgroundColor = _cardArr[i];
+        }
         _tmpPoint = cardView.center;
         [_bgView addSubview:cardView];
         
