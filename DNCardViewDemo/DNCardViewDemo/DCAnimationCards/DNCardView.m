@@ -1,19 +1,17 @@
 //
 //  DCAnimationCards.m
-//  DCCardsAnimation
+//  DNCardViewDemo
 //
 //  Created by dawnnnnn on 16/1/25.
 //  Copyright © 2016年 dawnnnnn. All rights reserved.
 //
 
-#import "DCAnimationCards.h"
+#import "DNCardView.h"
 
-/**< 窗口宽度 */
 #define SCREEN_WIDTH [[UIScreen mainScreen]bounds].size.width
-/**< 窗口高度 */
 #define SCREEN_HEIGHT [[UIScreen mainScreen]bounds].size.height
 
-@interface DCAnimationCards ()
+@interface DNCardView ()
 {
     NSArray *_cardArr;
     CGPoint _tmpPoint;
@@ -24,7 +22,7 @@
 
 @end
 
-@implementation DCAnimationCards
+@implementation DNCardView
 
 - (id)initWithCards:(NSArray*)cards {
     self = [super init];

@@ -1,13 +1,13 @@
 //
 //  ViewController.m
-//  DCCardAnimationDemo
+//  DNCardViewDemo
 //
 //  Created by dawnnnnn on 16/2/20.
 //  Copyright © 2016年 dawnnnnn. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "DCAnimationCards.h"
+#import "DNCardView.h"
 
 @interface ViewController ()
 
@@ -27,7 +27,7 @@
         [cardArr addObject:img];
     }
 //    NSArray *cardArr = @[[UIColor redColor], [UIColor blueColor], [UIColor yellowColor], [UIColor greenColor], [UIColor grayColor]];
-    DCAnimationCards *cards = [[DCAnimationCards alloc]initWithCards:[cardArr copy]];
+    DNCardView *cards = [[DNCardView alloc]initWithCards:[cardArr copy]];
     [self.view addSubview:cards];
 }
 

@@ -13,7 +13,7 @@
 		F4FE85B91C78BCE900088C10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4FE85B71C78BCE900088C10 /* Main.storyboard */; };
 		F4FE85BB1C78BCE900088C10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4FE85BA1C78BCE900088C10 /* Assets.xcassets */; };
 		F4FE85BE1C78BCE900088C10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4FE85BC1C78BCE900088C10 /* LaunchScreen.storyboard */; };
-		F4FE85C81C78BD0E00088C10 /* DCAnimationCards.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FE85C71C78BD0E00088C10 /* DCAnimationCards.m */; };
+		F4FE85C81C78BD0E00088C10 /* DNCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FE85C71C78BD0E00088C10 /* DNCardView.m */; };
 		F4FE85DC1C7C0AF500088C10 /* eg_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F4FE85D71C7C0AF500088C10 /* eg_1.png */; };
 		F4FE85DD1C7C0AF500088C10 /* eg_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F4FE85D81C7C0AF500088C10 /* eg_2.png */; };
 		F4FE85DE1C7C0AF500088C10 /* eg_3.png in Resources */ = {isa = PBXBuildFile; fileRef = F4FE85D91C7C0AF500088C10 /* eg_3.png */; };
@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F4FE85AB1C78BCE900088C10 /* DCCardAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCCardAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4FE85AB1C78BCE900088C10 /* DNCardViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNCardViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4FE85AF1C78BCE900088C10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4FE85B11C78BCE900088C10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F4FE85B21C78BCE900088C10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -32,8 +32,8 @@
 		F4FE85BA1C78BCE900088C10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4FE85BD1C78BCE900088C10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4FE85BF1C78BCE900088C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4FE85C61C78BD0E00088C10 /* DCAnimationCards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCAnimationCards.h; sourceTree = "<group>"; };
-		F4FE85C71C78BD0E00088C10 /* DCAnimationCards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCAnimationCards.m; sourceTree = "<group>"; };
+		F4FE85C61C78BD0E00088C10 /* DNCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNCardView.h; sourceTree = "<group>"; };
+		F4FE85C71C78BD0E00088C10 /* DNCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNCardView.m; sourceTree = "<group>"; };
 		F4FE85D71C7C0AF500088C10 /* eg_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eg_1.png; sourceTree = "<group>"; };
 		F4FE85D81C7C0AF500088C10 /* eg_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eg_2.png; sourceTree = "<group>"; };
 		F4FE85D91C7C0AF500088C10 /* eg_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eg_3.png; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		F4FE85A21C78BCE900088C10 = {
 			isa = PBXGroup;
 			children = (
-				F4FE85AD1C78BCE900088C10 /* DCCardAnimationDemo */,
+				F4FE85AD1C78BCE900088C10 /* DNCardViewDemo */,
 				F4FE85AC1C78BCE900088C10 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,16 +63,16 @@
 		F4FE85AC1C78BCE900088C10 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4FE85AB1C78BCE900088C10 /* DCCardAnimationDemo.app */,
+				F4FE85AB1C78BCE900088C10 /* DNCardViewDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F4FE85AD1C78BCE900088C10 /* DCCardAnimationDemo */ = {
+		F4FE85AD1C78BCE900088C10 /* DNCardViewDemo */ = {
 			isa = PBXGroup;
 			children = (
 				F4FE85D61C7C0AF500088C10 /* resource */,
-				F4FE85C51C78BD0E00088C10 /* DCAnimationCards */,
+				F4FE85C51C78BD0E00088C10 /* DNCardView */,
 				F4FE85B11C78BCE900088C10 /* AppDelegate.h */,
 				F4FE85B21C78BCE900088C10 /* AppDelegate.m */,
 				F4FE85B41C78BCE900088C10 /* ViewController.h */,
@@ -83,7 +83,7 @@
 				F4FE85BF1C78BCE900088C10 /* Info.plist */,
 				F4FE85AE1C78BCE900088C10 /* Supporting Files */,
 			);
-			path = DCCardAnimationDemo;
+			path = DNCardViewDemo;
 			sourceTree = "<group>";
 		};
 		F4FE85AE1C78BCE900088C10 /* Supporting Files */ = {
@@ -94,12 +94,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F4FE85C51C78BD0E00088C10 /* DCAnimationCards */ = {
+		F4FE85C51C78BD0E00088C10 /* DNCardView */ = {
 			isa = PBXGroup;
 			children = (
-				F4FE85C61C78BD0E00088C10 /* DCAnimationCards.h */,
-				F4FE85C71C78BD0E00088C10 /* DCAnimationCards.m */,
+				F4FE85C61C78BD0E00088C10 /* DNCardView.h */,
+				F4FE85C71C78BD0E00088C10 /* DNCardView.m */,
 			);
+			name = DNCardView;
 			path = DCAnimationCards;
 			sourceTree = "<group>";
 		};
@@ -118,9 +119,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F4FE85AA1C78BCE900088C10 /* DCCardAnimationDemo */ = {
+		F4FE85AA1C78BCE900088C10 /* DNCardViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4FE85C21C78BCE900088C10 /* Build configuration list for PBXNativeTarget "DCCardAnimationDemo" */;
+			buildConfigurationList = F4FE85C21C78BCE900088C10 /* Build configuration list for PBXNativeTarget "DNCardViewDemo" */;
 			buildPhases = (
 				F4FE85A71C78BCE900088C10 /* Sources */,
 				F4FE85A81C78BCE900088C10 /* Frameworks */,
@@ -130,9 +131,9 @@
 			);
 			dependencies = (
 			);
-			name = DCCardAnimationDemo;
+			name = DNCardViewDemo;
 			productName = DCCardAnimationDemo;
-			productReference = F4FE85AB1C78BCE900088C10 /* DCCardAnimationDemo.app */;
+			productReference = F4FE85AB1C78BCE900088C10 /* DNCardViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -149,7 +150,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F4FE85A61C78BCE900088C10 /* Build configuration list for PBXProject "DCCardAnimationDemo" */;
+			buildConfigurationList = F4FE85A61C78BCE900088C10 /* Build configuration list for PBXProject "DNCardViewDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -162,7 +163,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4FE85AA1C78BCE900088C10 /* DCCardAnimationDemo */,
+				F4FE85AA1C78BCE900088C10 /* DNCardViewDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -191,7 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4FE85B61C78BCE900088C10 /* ViewController.m in Sources */,
-				F4FE85C81C78BD0E00088C10 /* DCAnimationCards.m in Sources */,
+				F4FE85C81C78BD0E00088C10 /* DNCardView.m in Sources */,
 				F4FE85B31C78BCE900088C10 /* AppDelegate.m in Sources */,
 				F4FE85B01C78BCE900088C10 /* main.m in Sources */,
 			);
@@ -303,10 +304,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = DCCardAnimationDemo/Info.plist;
+				INFOPLIST_FILE = DNCardViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.laxiong.DCCardAnimationDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redmist.DNCardViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -315,10 +316,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = DCCardAnimationDemo/Info.plist;
+				INFOPLIST_FILE = DNCardViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.laxiong.DCCardAnimationDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redmist.DNCardViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -326,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F4FE85A61C78BCE900088C10 /* Build configuration list for PBXProject "DCCardAnimationDemo" */ = {
+		F4FE85A61C78BCE900088C10 /* Build configuration list for PBXProject "DNCardViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4FE85C01C78BCE900088C10 /* Debug */,
@@ -335,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4FE85C21C78BCE900088C10 /* Build configuration list for PBXNativeTarget "DCCardAnimationDemo" */ = {
+		F4FE85C21C78BCE900088C10 /* Build configuration list for PBXNativeTarget "DNCardViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4FE85C31C78BCE900088C10 /* Debug */,
