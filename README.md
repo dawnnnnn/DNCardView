@@ -1,9 +1,9 @@
-## DCCardAnimation
+## DNCardView
 仿AppSolution内查看app预览图时的效果
 
 
 ## Preview 预览
-![screenshots](https://raw.githubusercontent.com/dawnnnnn/DCCardAnimation/master/screenshots/DNCardAnimation.gif)
+![screenshots](https://raw.githubusercontent.com/dawnnnnn/DNCardView/master/screenshots/DNCardAnimation.gif)
 
 
 ## Usage 使用
