@@ -3,6 +3,7 @@
 
 
 ## Preview 预览
+
 ![screenshots](https://raw.githubusercontent.com/dawnnnnn/DNCardView/master/screenshots/DNCardAnimation.gif)
 
 
@@ -10,8 +11,8 @@
 
 ``` objc
 	NSArray *cardArr = @[[UIColor redColor], [UIColor blueColor], [UIColor yellowColor], [UIColor greenColor], [UIColor grayColor]];
-    DNCardView *cards = [[DNCardView alloc]initWithCards:cardArr];
-    [self.view addSubview:cards];
+	DNCardView *cards = [[DNCardView alloc]initWithCards:cardArr];
+	[self.view addSubview:cards];
 ```
 cardArr为存放背景或image的数组。
 
